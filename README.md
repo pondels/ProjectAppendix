@@ -1,2 +1,2 @@
 # ProjectAppendix
-A repository for general information about projects have since/been worked on,
+A repository for general information about projects that I worked on,
