@@ -104,15 +104,15 @@
 - **New Command `/find` **
    - You can now find items using this command
    - Spelling does not need to be perfect, and will try its best to find what you're looking for!
-- ** `/global_stats` renamed to `/leaderboards` **
+- **`/global_stats` renamed to `/leaderboards` **
    - You can now view player leaderboards and see top players in a given category
-- ** New Settings **
+- **New Settings **
    - Added a new flag to notify players about updates to MineBot
    - Added tutorial notifications to notify players for the completion of a tutorial step
 - **Auto Crafting**
    - Can now go to the recipe you want to craft and auto-craft the recipe
    - If unable to craft, you will receive an itemized list of missing ingredients
-- ** Bug Fixes and Changes**
+- **Bug Fixes and Changes**
    - The mystery potion now gives the effect of the durabliss potion
    - Commands that broke in player DM's no longer do
    - Messages sent via `/info` no longer linger in your DM's and break
@@ -159,7 +159,7 @@
    - This is including weekly and monthly streaks
    - This adds potential for holiday events and timed exclusive items.
 - **Autosmelt will now automatically be enabled and stay enabled, as it's useless to toggle on/off**
-- ** Buttons and selections will no longer expire**
+- **Buttons and selections will no longer expire**
    - Before your messages would stop working after a few minutes. This is no longer the case. (theoretically)
 - **`/leaderboard` temporarily removed (potentially permanent)**
    - There are a few concerns of privacy that I want to address, and this is a feature I feel should be opted into
