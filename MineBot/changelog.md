@@ -101,12 +101,12 @@
 - **New Command `/tutorial`**
    - New users will be prompted with this command to get started
    - The tutorial covers all necessary commands for game progression
-- **New Command `/find` **
+- **New Command `/find`**
    - You can now find items using this command
    - Spelling does not need to be perfect, and will try its best to find what you're looking for!
-- **`/global_stats` renamed to `/leaderboards` **
+- **`/global_stats` renamed to `/leaderboards`**
    - You can now view player leaderboards and see top players in a given category
-- **New Settings **
+- **New Settings**
    - Added a new flag to notify players about updates to MineBot
    - Added tutorial notifications to notify players for the completion of a tutorial step
 - **Auto Crafting**
