@@ -1,15 +1,37 @@
-<div align="center">
-<h1> Privacy Policy </h1>
-<h3> Last Updated: November 8, 2025 </h3>
+
+<div style="padding: 15px; background-color: #737373; border-radius: 15px; color: #000000;">
+<!-- <div align="center"> -->
+<h1 style="text-align: center;"> Privacy Policy </h1>
+<p style="text-align: center; margin: -20px;"> Last Updated: November 12, 2025 </>
 
 ---
 
-A statement of your organization’s commitment to protect the personal information it collects.
-A definition of personal information.
+<style>
+    .pretty-div :is(h1, h2, h3, h4, h5, h6) {
+        /* color: #959595; */
+        color: #000000;
+    }
+    .pretty-div {
+        padding: 15px;
+        background-color: #515151;
+        border-radius: 15px;
+        /* color: #737373; */
+    }
+</style>
+
+<div class="pretty-div">
+<h6>
+We respect all information collected from you, the user and are fully committed to ensuring any data stored is protected.
+This Privacy Policy provides you with everything you need to know such as how we collect any data from you, what we do with it, and how we securely process such information. This document also entales your rights and decisions under such processing of information
+</h6>
+
+<h6> References to "MineBot," "we," "us" and "our" refer to MineBot. References to "you" and "your" refer to you as a user of MineBot whose data we collect, process, and store as noticed in this Notice. </h6>
+
 <h3>ACCEPTING THIS POLICY AND CHANGES MADE</h3>
 Cover what it means for the user to agree to this policy and any changes made to this policy
 Include how and when users will be informed about changes to the privacy policy.
 <h3>DATA WE COLLECT AND UTILIZE</h3>
+A definition of personal information.
 A statement that your organization intends to comply with privacy regulations.
 How your organization will obtain consent to collect personal information.
 Explain the purpose—account creation, analytics, personalized experiences, legal obligations, etc.
@@ -42,7 +64,9 @@ Clarify how you use cookies and tracking technologies, and offer options to mana
 <h3>OPTING OUT OF DATA COLLECTION (Might not be necessary in the current build)</h3>
 The method for withdrawal of consent to collection of personal information.
 And it’s not just a nice thing to do; it’s often a legal requirement. Take the CAN-SPAM Act in the U.S., from 2003. It stipulates that if you’re sending commercial emails, you must provide a way for people to say, “No more emails, please.”
-<h3>_</h3>
 <h3>CONTACT</h3>
 Your organization’s process for lodging and managing privacy complaints.
 The contact information for the privacy officer in your organization.
+</div>
+
+</div>
