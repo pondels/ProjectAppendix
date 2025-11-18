@@ -1,6 +1,6 @@
 
 <h1 style="text-align: center;"> Privacy Policy </h1>
-<p style="text-align: center; margin: -20px;"> Last Updated: November 17, 2025 </p>
+<p style="text-align: center; margin: -20px;"> Last Updated: November 18, 2025 </p>
 
 ---
 
