@@ -35,7 +35,7 @@ This Privacy Policy applies to anyone who uses MineBot in any capacity, includin
 ### **About Children**
 
 Our services are not intended for individuals under the age of 13.
-If you are a parent or guardian and believe that a child has provided us with personal information, please contact us at **`MY_EMAIL`**.
+If you are a parent or guardian and believe that a child has provided us with personal information, please contact us at **`mathman.minebot.official@gmail.com`**.
 
 ---
 
