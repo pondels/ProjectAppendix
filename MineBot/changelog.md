@@ -1,8 +1,9 @@
 # MineBot Update Changelog
 ## These will look like Discord messages because they were initially sent out as messages through Discord.
+<strong>Version numbers will be different than originally posted to reflect realistic version control (as there was no system before now)</strong>
 ---
 # 12/10/23
-**1.0.1 Update - More Organized Information**
+**0.1 Update - More Organized Information**
 - **Improved /info Command:**
   - **Change:** `Blocks and Items` selection is  now organized into pages.
   - **Why:** To enhance readability and prevent overly long embeds.
@@ -12,7 +13,7 @@
 **Thank you for your continued support!**
 ---
 # 12/21/23
-**1.0.2 Update - Archaeology Overhaul!**
+**0.2 Update - Archaeology Overhaul!**
 - **Added New Command: `/trade`**
   - You can now take artifacts and trade them for lower, current, or higher ranks for better flexibility when crafting with artifacts
 - **Reworked Archaologist Enchantment**
@@ -28,7 +29,7 @@
 **Find Some Artifacts Boys! :eyes:**
 ---
 # 2/22/24
-**1.0.3 Update - Mining and QOL**
+**0.3 Update - Mining and QOL**
 - **Complete Mining Overhaul!**
   - Instead of having to wait x amount of days, you pick and choose the mines you wish to mine from!
   - This negates any issues with new players joining and having to wait longer than expected
@@ -46,7 +47,7 @@
   - Can now view where to obtain smelted materials from `/smelt`
 ---
 # 5/12/24
-**1.0.4 Update - QOL and UI**
+**0.4 Update - QOL and UI**
 - **Better UI For Contributions**
   - Instead of a massive text dump, you get a neat list of ores you've unlocked
   - Clears up any confusion of what is needed and what you have obtained
@@ -58,7 +59,7 @@
   - Any bugs and suggestions should be sent over in #minebot-discussion 
 ---
 # 9/18/24
-**1.0.5 Update - Armor and Crafting!**
+**0.5 Update - Armor and Crafting!**
 - **Armor Is Now Craftable**
   - A system is now comprised to allow for armor progression and crafting your way up to better
   - Recipes no longer only contain artifacts and now comprise of templates alongside those artifacts
@@ -68,7 +69,7 @@
 *(this update is bigger than it sounds I promise, this is basically everything but it adds a ton)*
 ---
 # 9/29/24
-**1.0.6 Update - QOL and Other Cool Stuffs**
+**0.6 Update - QOL and Other Cool Stuffs**
 - **New Things for `/craft`**
    - You can now see what armor sets belong to which dimension
    - Dimensions representing templates now get removed when you craft all required ones
@@ -82,7 +83,7 @@
    - Fixed a bug when crafting items with resources you don't have
 ---
 # 12/10/24
-**1.0.7 Update - Potions!**
+**0.7 Update - Potions!**
 - **`/report` and `/suggestion` have been added back in!**
 - **Potion Revamp**
   - Potion recipes are now live and ready to brew in `/brew`
@@ -95,7 +96,7 @@
   - General release flow mapped out
 ---
 # 12/24/24
-# **2.0.0 Update - QOL and Early Access!**
+# **0.8 Update - QOL and Early Access!**
 - __**The Full release is now live and ready to go! (though in early access)**__
    - You can now add MineBot to your own server [here!](https://top.gg/bot/1082189783654219776)
 - **New Command `/tutorial`**
@@ -119,7 +120,7 @@
    - Smelting achievement now accounted for the auto-smelting flag
 ---
 # 1/26/25
-# **2.0.1 Bug Fixes and QoL**
+# **0.9 Bug Fixes and QoL**
 - **`/contribute` now shows what dimensions are locked**
 - **`/recover` is more verbose on what happens behind the scenes**
 - **`/smelt` now has a button to auto-smelt everything**
@@ -134,7 +135,7 @@
 - **You can now choose how many packs you would like to open instead of all at once**
 ---
 # 3/24/25
-# **2.0.2 Small Changes and Bug Fixes**
+# **0.10 Small Changes and Bug Fixes**
 - **`/profiles` is now `/account`**
 - **You can now delete your profile from the database using `/account`**
 - **Fixed a bug where crafting multiple items could miss an achievement**
@@ -142,7 +143,7 @@
 - **Fixed a bug with recovering deleted channels**
 ---
 # 4/21/25
-# 2.0.3 Shower Me In Rewards!
+# 0.11 Shower Me In Rewards!
 - **DMs are no longer part of the flow**
    - The only time you will receive DM's is when you specify in `/settings`
    - Your direct messages will need to be open for MineBot to send you DM's
@@ -167,7 +168,7 @@
       - This could lead to not needing a leaderboard anymore, so it's gone temporarily until figured out
 ---
 # 6/21/25
-# 2.0.4 Overhauls!
+# 0.12 Overhauls!
 - **Completely Overhauled `/trade`**
 - **`/tutorial` updated to include new commands**
 - **New tutorial channel in servers**
@@ -193,7 +194,7 @@
 - **Fixed Several Exploits and Bugs**
 ---
 # 8/15/25
-# 2.0.5 Out With the Old, In With the New!
+# 0.13 Out With the Old, In With the New!
 - Can no longer send unwanted messages in mining/update/tutorial channels
 - `/contribute` is no longer a command!
   - All ores and dimensions are unlocked by default
@@ -216,7 +217,7 @@
 - Fixed a visual bug where rewards would say to wait to claim even though it was claimableFixed formatting issues in /info for mobile usersFixed a bug where you could claim rewards when a streak was made
 ---
 # 9/14/25
-# 2.0.6 Balances and Corrections
+# 0.14 Balances and Corrections
 **Balances**
 - Discovery pickaxe upgrade now sells and multiplies.
 - Mob drops now vary instead of bulk drop 1 item
@@ -238,7 +239,7 @@
 - Several formatting changes across informational commands
 ---
 # 9/30/25
-# 2.0.7 Spooky Month 
+# 0.15 Spooky Month 
 **New Features**
 - New MineBot Hub with quick commands for easy accessibility!
 - `/find` now can search for enchantments, potions, spells, crates, event items and currencies.
@@ -266,7 +267,7 @@
 - Fixed a bug where drinking potions softlocks you for the day
 ---
 # 10/22/25
-# 2.0.8 Reworks!
+# 0.16 Reworks!
 - **New Features**
   - `/find` now explains what enchantments and potions do
   - `/info`
