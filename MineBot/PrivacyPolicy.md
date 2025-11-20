@@ -1,6 +1,6 @@
 
 <h1 style="text-align: center;"> Privacy Policy </h1>
-<p style="text-align: center; margin: -20px;"> Last Updated: November 18, 2025 </p>
+<p style="text-align: center; margin: -20px;"> Last Updated: November 19, 2025 </p>
 
 ---
 
@@ -16,7 +16,7 @@ References to **“you”** and **“your”** refer to you as a user of MineBot
 
 **You should read this Policy in its entirety before providing us with any information.**
 
-Your use of our services such as creating an account, inviting MineBot to your server, or contacting us indicates that you have read and agree to be legally bound by this Privacy Policy.
+Your usage of our services such as creating an account, inviting MineBot to your server, contacting us, or otherwise interacting in any way with our services indicates that you have read and agree to be legally bound by this Privacy Policy.
 
 We may update this Policy as our application evolves or when required by law. When changes are made, we will notify you where appropriate. The most recent update date can always be found at the top of this document.
 
