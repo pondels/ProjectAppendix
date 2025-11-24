@@ -296,3 +296,34 @@
   - Fixed a bug where your profile could have trailing whitespace
   - Fixed visual bug with drop modifier being inaccurately displayed
 ---
+# 1.0 Full Release! (wooo)
+- New Features
+  - Can now request
+    - Your MineBot Account Data
+    - Your Server's MineBot Account Data (if you're the server owner)
+  - We now have an official email for you to contact us through with questions using `/contact` or by looking at MineBot's profile
+  - You can now customize exactly what you see when you mine blocks in the mines in `/account`!
+  - More events created (What will they be? :eyes:)
+  - Server admins can now `/purge` all MineBot generated channels and categories via command or when removing their server from MineBot's Database
+- Small Changes
+  - Terms of Service and Privacy Policy updated! (viewable in `/info`)
+  - `/recover` now asks for confirmation before creating and deleting old MineBot channels
+  - Update Channel now has a default changelog embed to see previous updates
+  - MineBot's name is now just MineBot and not MineBot (/help)
+  - Updated the message MineBot sends when invited to a server
+  - Changed commands referenced to be clickable through messages
+    - (This only effects commands ran in channels where commands can be typed)
+  - Slight adjustments to the tutorial
+  - Can now convert all items for rewards all at once instead of one at a time.
+  - Crates now contain more than 1 item
+- Balances
+  - Reworked the Economy
+  - Reworked Crafting Recipes
+- Fixes
+  - Fixed changes on Bot status display
+  - Fixed the blocks mined stat to now compound off of all your profiles instead of a per-profile basis
+  - Fixed a bug where the tutorial wouldn't show if all steps were completed
+  - Fixed a bug where certain tool upgrades weren't being caught in the achievements
+- Known Bugs
+  - Clickable commands only work for server administrators
+---
