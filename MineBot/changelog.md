@@ -327,3 +327,14 @@
 - Known Bugs
   - Clickable commands only work for server administrators
 ---
+# Update 1.1
+- Fixes
+  - (This was a woopsy daisy) You can now use `/contact` without the need of an account
+  - Drop modifier displayed incorrect information, and is now corrected
+  - There are now checks to see if a user has DMs enabled to recieve DM notifications
+  - Relative time corrections for items smelting, pickaxe repair, and other relative times to bot launch
+  - Fixed some misinformation in `/info`
+  - Fixed `/setup`, `/recover` and mining to no longer ping users with messages, and instead send them as silent messages.
+- Known Bugs
+  - Clickable commands are still only working for server administrators
+---
