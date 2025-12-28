@@ -327,7 +327,7 @@
 - Known Bugs
   - Clickable commands only work for server administrators
 ---
-# Update 1.1
+# 1.1 HotFixes
 - Fixes
   - (This was a woopsy daisy) You can now use `/contact` without the need of an account
   - Drop modifier displayed incorrect information, and is now corrected
