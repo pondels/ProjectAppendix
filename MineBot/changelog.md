@@ -296,6 +296,7 @@
   - Fixed a bug where your profile could have trailing whitespace
   - Fixed visual bug with drop modifier being inaccurately displayed
 ---
+# 11/24/25
 # 1.0 Full Release! (wooo)
 - New Features
   - Can now request
@@ -327,6 +328,7 @@
 - Known Bugs
   - Clickable commands only work for server administrators
 ---
+# 12/27/25
 # 1.1 HotFixes
 - Fixes
   - (This was a woopsy daisy) You can now use `/contact` without the need of an account
