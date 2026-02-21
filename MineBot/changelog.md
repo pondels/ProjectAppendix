@@ -2,7 +2,88 @@
 ## These will look like Discord messages because they were initially sent out as messages through Discord.
 <strong>Version numbers will be different than originally posted to reflect realistic version control (as there was no system before now)</strong>
 ---
-# 12/27/25
+# Feb. 21, 2026
+# 1.1 The Combat Update
+### New Features
+  - **New Command**: `/fight`
+    - Fight creatures from an array of dimensions
+    - Choose who you fight, and get rewards based on the creature you fight
+    - See what your odds are of winning a fight, and the potential loot you could yield
+    - Combat is structurally the same, with a few added features
+    - Now will receive SXP from combat
+    - On failed encounter, will receive half User XP and SXP, as well as no loot from the creature
+    - Drops now account for armor power bonus
+    - New fight tab in in the MineBot Hub and in `/help`
+  - **Creatures now have a base SXP value** based on their difficulty
+  - **New Tool**: Sword (kinda)
+  - **New Upgrades** For Sword
+    - Pheromone: Increase number of creatures you fight per combat
+    - Withering: Chance to gain double Sword XP from creatures
+    - Durability: Increase the base amount of durability of your sword
+  - **New account settings** for sword messages
+  - **New economy system** for personalized upgrading per tool
+  - **Money is now specific to the tool you are using and is referred to as Tool XP (TXP)**
+  - **Complete Potions Overhaul**
+    - Potions are now craftable starting from the overworld
+    - Potion recipes completely changed
+    - Potions are now crafted using essence
+  - **New quick menu** in the mines (visualized with a +)
+    - Use items quick menu
+    - Upgrade quick menu
+    - Smelt quick menu
+    - Craft quick menu
+    - Armory quick menu
+    - Fight quick menu
+  - **Added 2 new forms**, one where you [create](https://docs.google.com/forms/d/e/1FAIpQLSf_HSAbrc9X0be5fdjEqXzq3NKrkhRmShBwNM0oU8O0e9v0Ag/viewform?usp=publish-editor) an account and [delete](https://docs.google.com/forms/d/e/1FAIpQLSf8HeuCAU7BfB48EybapUyI-FGicjOHhP5-9a3xV8IyvsNa5Q/viewform?usp=publish-editor) your account (for servers as well)
+
+### Small Changes
+  - Creature drops recategorized in inventory
+  - `/brew` now limits your potions to what you are able to craft based on progression
+  - Lure potion changed from % chance to encounter a creature to % chance of another creature being fought
+  - Durabliss potion now applies to all tools
+  - Inheritence and incomprehensible greed now affect all tools
+  - Changed all instances of money to either TXP, PXP, or SXP
+  - Swapped out money in crates to a mixture of SXP and PXP
+  - New achievements to reflect the new upgrades
+  - Data requests now decrypt any encrypted data for added security (no more potential reverse engineering)
+  - New update message notification formats
+  - Added 2 new cosmetics
+    - Weeb: Stickman holding a body pillow
+    - Biker: Stickman wearing a bandana holding a helmet
+  - (If server members intent is approved) Server owners will now receive an exit form for MineBot to fill out if they remove minebot from their servers.
+  - User `/stats` menu now shows each individual tool with their respective durability and tool experience
+  - `/world_info` temporary formatted differently
+  - Changed formatting in `/server_stats`
+  - Updated various wording in `/info`
+    - Your Account will now link to the Privacy Policy
+    - Voting changed money modifier to Tool XP Modifier
+    - Slight rewording in the Upgrades panel
+    - Armor money modifier changed to TXP modifier
+    - Creature encounters adjusted to reflect the new combat system
+    - Money and XP field changed to Tool XP and User XP respectfully
+  
+### Balances
+  - Adjusted creatures base AC
+  - Changed creatures loot pool
+  - Tool upgrade price changes
+  - Increased rage upgrade max to 4
+  - Tweaked vampire upgrade effect
+  - Added another Rage upgrade
+  - Balanced Enlightened Fixation
+  - Tweaked how many times Cherophobia can be casted
+  - Amend spell now repairs all tools and not just the pickaxe
+  - Tweaked lure potion effect
+
+### Bug Fixes
+  - Fixed a bug where minebot would go offline randomly for an unknown amount of time
+  - Opening crates now adds to your total experience gained
+  - Fixed a bug where the mystery potion would active inactive holiday potion effects
+
+### Known Issues
+  - GUIs are still kinda choppy (in the works)
+  - Same issues as prior update
+---
+# Dec. 27, 2025
 # 1.1 HotFixes
 - Fixes
   - (This was a woopsy daisy) You can now use `/contact` without the need of an account
@@ -14,7 +95,7 @@
 - Known Bugs
   - Clickable commands are still only working for server administrators
 ---
-# 11/24/25
+# Nov. 24, 2025
 # 1.0 Full Release! (wooo)
 - New Features
   - Can now request
@@ -46,7 +127,7 @@
 - Known Bugs
   - Clickable commands only work for server administrators
 ---
-# 10/22/25
+# Oct. 22, 2025
 # 0.16 Reworks!
 - **New Features**
   - `/find` now explains what enchantments and potions do
@@ -76,7 +157,7 @@
   - Fixed a bug where your profile could have trailing whitespace
   - Fixed visual bug with drop modifier being inaccurately displayed
 ---
-# 9/30/25
+# Sept. 30, 2025
 # 0.15 Spooky Month 
 **New Features**
 - New MineBot Hub with quick commands for easy accessibility!
@@ -104,7 +185,7 @@
 - Fixed a bug where users weren't receiving update notifications
 - Fixed a bug where drinking potions softlocks you for the day
 ---
-# 9/14/25
+# Sept. 14, 2025
 # 0.14 Balances and Corrections
 **Balances**
 - Discovery pickaxe upgrade now sells and multiplies.
@@ -126,7 +207,7 @@
 - Updated tutorial step 1 to be up to date
 - Several formatting changes across informational commands
 ---
-# 8/15/25
+# Aug. 15, 2025
 # 0.13 Out With the Old, In With the New!
 - Can no longer send unwanted messages in mining/update/tutorial channels
 - `/contribute` is no longer a command!
@@ -149,7 +230,7 @@
 - Fixed a bug where you could try deleting your already deleted server
 - Fixed a visual bug where rewards would say to wait to claim even though it was claimableFixed formatting issues in /info for mobile usersFixed a bug where you could claim rewards when a streak was made
 ---
-# 6/21/25
+# Jun. 21, 2025
 # 0.12 Overhauls!
 - **Completely Overhauled `/trade`**
 - **`/tutorial` updated to include new commands**
@@ -175,7 +256,7 @@
 - **Rewards can now be claimed at the beginning of the day instead of exactly 24 hours after claiming**
 - **Fixed Several Exploits and Bugs**
 ---
-# 4/21/25
+# Apr. 21, 2025
 # 0.11 Shower Me In Rewards!
 - **DMs are no longer part of the flow**
    - The only time you will receive DM's is when you specify in `/settings`
@@ -200,7 +281,7 @@
    - I have plans for progression that could help keep things balanced no matter how many players there are
       - This could lead to not needing a leaderboard anymore, so it's gone temporarily until figured out
 ---
-# 3/24/25
+# Mar. 24, 2025
 # **0.10 Small Changes and Bug Fixes**
 - **`/profiles` is now `/account`**
 - **You can now delete your profile from the database using `/account`**
@@ -208,7 +289,7 @@
 - **`/server_stats` refactored to be easier to use**
 - **Fixed a bug with recovering deleted channels**
 ---
-# 1/26/25
+# Jan. 26, 2025
 # **0.9 Bug Fixes and QoL**
 - **`/contribute` now shows what dimensions are locked**
 - **`/recover` is more verbose on what happens behind the scenes**
@@ -223,7 +304,7 @@
 - **Packs will now display a preview of what's inside**
 - **You can now choose how many packs you would like to open instead of all at once**
 ---
-# 12/24/24
+# Dec. 24, 2024
 # **0.8 Update - QOL and Early Access!**
 - __**The Full release is now live and ready to go! (though in early access)**__
    - You can now add MineBot to your own server [here!](https://top.gg/bot/1082189783654219776)
@@ -247,7 +328,7 @@
    - Messages sent via `/info` no longer linger in your DM's and break
    - Smelting achievement now accounted for the auto-smelting flag
 ---
-# 12/10/24
+# Dec. 10, 2024
 **0.7 Update - Potions!**
 - **`/report` and `/suggestion` have been added back in!**
 - **Potion Revamp**
@@ -260,7 +341,7 @@
   - Achievements slightly changed to better fit the general progression
   - General release flow mapped out
 ---
-# 9/29/24
+# Sept. 29, 2024
 **0.6 Update - QOL and Other Cool Stuffs**
 - **New Things for `/craft`**
    - You can now see what armor sets belong to which dimension
@@ -274,7 +355,7 @@
    - Profiles now have sanitized Inputs
    - Fixed a bug when crafting items with resources you don't have
 ---
-# 9/18/24
+# Sept. 18, 2024
 **0.5 Update - Armor and Crafting!**
 - **Armor Is Now Craftable**
   - A system is now comprised to allow for armor progression and crafting your way up to better
@@ -284,7 +365,7 @@
 **As always, if you have any bugs you find or concerns with how things are laid out, please suggest/report said items in #minebot-discussion  <3**
 *(this update is bigger than it sounds I promise, this is basically everything but it adds a ton)*
 ---
-# 5/12/24
+# May. 12, 2024
 **0.4 Update - QOL and UI**
 - **Better UI For Contributions**
   - Instead of a massive text dump, you get a neat list of ores you've unlocked
@@ -296,7 +377,7 @@
   - This removal is currently temporary
   - Any bugs and suggestions should be sent over in #minebot-discussion 
 ---
-# 2/22/24
+# Feb. 22, 2024
 **0.3 Update - Mining and QOL**
 - **Complete Mining Overhaul!**
   - Instead of having to wait x amount of days, you pick and choose the mines you wish to mine from!
@@ -313,7 +394,7 @@
   - The inventory has been moved to its own function `/inventory`
   - Stats now only contains statistics
   - Can now view where to obtain smelted materials from `/smelt`
-# 12/21/23
+# Dec. 21, 2023
 **0.2 Update - Archaeology Overhaul!**
 - **Added New Command: `/trade`**
   - You can now take artifacts and trade them for lower, current, or higher ranks for better flexibility when crafting with artifacts
@@ -329,7 +410,7 @@
 
 **Find Some Artifacts Boys! :eyes:**
 ---
-# 12/10/23
+# Dec. 10, 2023
 **0.1 Update - More Organized Information**
 - **Improved /info Command:**
   - **Change:** `Blocks and Items` selection is  now organized into pages.
@@ -338,4 +419,3 @@
   - Resolved several issues including developer testing commands, and opening packs in DMs.
 
 **Thank you for your continued support!**
----
