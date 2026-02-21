@@ -3,7 +3,7 @@
 <strong>Version numbers will be different than originally posted to reflect realistic version control (as there was no system before now)</strong>
 ---
 # Feb. 21, 2026
-# 1.1 The Combat Update
+# 1.2 The Combat Update
 ### New Features
   - **New Command**: `/fight`
     - Fight creatures from an array of dimensions
